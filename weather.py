@@ -1,8 +1,6 @@
 #coding=utf-8
 import requests
 
-from openai import OpenAI
-
 def get_weather(city: str) -> str:
     """
     通过调用 wttr.in API 查询真实的天气信息。
